@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bl23ygsn802io"]
+
+[ext_resource type="Texture2D" uid="uid://bjjihbfmci3cr" path="res://kenney_tiny-dungeon/Tilemap/background.png" id="1_m0mnt"]
+
+[node name="Battle" type="Node2D"]
+metadata/_edit_lock_ = true
+
+[node name="Background" type="Sprite2D" parent="."]
+
+[node name="Background2" type="Sprite2D" parent="."]
+modulate = Color(0.310617, 0.310617, 0.310617, 1)
+position = Vector2(128, 72)
+texture = ExtResource("1_m0mnt")
